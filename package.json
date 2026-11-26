@@ -1,0 +1,26 @@
+{
+  "name": "qa-proyectos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Espacio de trabajo QA con Claude: análisis, diseño, ejecución con playwright-cli, automatización con Playwright y registro en Arpsis",
+  "scripts": {
+    "nuevo": "node scripts/nuevo-proyecto.mjs",
+    "ticket": "node scripts/nuevo-ticket.mjs",
+    "sistema": "node scripts/nuevo-sistema.mjs",
+    "verificar": "node scripts/verificar.mjs",
+    "documentos": "node scripts/documentos.mjs",
+    "ejecutar": "node scripts/ejecutar.mjs",
+    "captura": "node scripts/captura.mjs",
+    "sesion": "node scripts/sesion.mjs",
+    "pruebas": "node scripts/pruebas.mjs"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "devDependencies": {
+    "@playwright/cli": "0.1.6",
+    "@playwright/test": "1.65.1",
+    "dotenv": "18.0.10",
+    "pdfjs-dist": "6.5.438"
+  }
+}

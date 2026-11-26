@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "mcp__arpsis__arpsis_search_projects",
+      "mcp__arpsis__arpsis_get_*",
+      "mcp__arpsis__arpsis_list_*",
+      "mcp__arpsis__arpsis_qa_list_*",
+      "mcp__arpsis__arpsis_qa_get_*",
+      "Bash(npx playwright-cli:*)",
+      "Bash(npm run verificar:*)",
+      "Bash(npm run nuevo:*)",
+      "Bash(npm run pruebas:*)",
+      "PowerShell(npx playwright-cli:*)",
+      "PowerShell(npm run verificar:*)",
+      "PowerShell(npm run nuevo:*)",
+      "PowerShell(npm run pruebas:*)"
+    ],
+    "ask": [
+      "mcp__arpsis__arpsis_qa_create_*",
+      "mcp__arpsis__arpsis_qa_update_*",
+      "mcp__arpsis__arpsis_qa_change_bug_status"
+    ],
+    "deny": [
+      "Read(**/.env)"
+    ]
+  }
+}

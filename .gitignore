@@ -1,0 +1,22 @@
+# Instalación y archivos temporales
+node_modules/
+.playwright-cli/
+test-results/
+playwright-report/
+_respaldo-*/
+
+# Configuración personal de Claude (la compartida es .claude/settings.json)
+.claude/settings.local.json
+
+# Proyectos y tickets: se quedan en el computador de cada QA.
+# Tienen documentos del cliente, .env con contraseñas, evidencias y resultados.
+# El repositorio comparte solo la herramienta: CLAUDE.md, LEEME.md, scripts/, soporte/, plantilla/ y sistemas/.
+proyectos/
+
+# Por si algún archivo sensible quedara fuera de proyectos/
+.env
+*.env
+!.env.example
+*credencial*
+*.pem
+*.key
